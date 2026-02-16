@@ -13,8 +13,12 @@ This folder contains the complete network failure prediction system that was upg
 ## Quick start
 
 ```bash
-cd network_failure_project
+cd /Users/vivektripathi/Desktop/machineLearning
 ./network_failure_service/start_local.sh
 ```
 
 Open `http://127.0.0.1:8000/`.
+
+## Quick Links
+- Android Studio app folder: [network_failure_service/android_studio_app](https://github.com/Alankaar63/AI-Driven-Network-Failure-Prediction/tree/main/network_failure_service/android_studio_app)
+- Download full source ZIP: [main.zip](https://github.com/Alankaar63/AI-Driven-Network-Failure-Prediction/archive/refs/heads/main.zip)
