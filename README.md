@@ -20,5 +20,6 @@ cd /Users/vivektripathi/Desktop/machineLearning
 Open `http://127.0.0.1:8000/`.
 
 ## Quick Links
-- Android Studio app folder: [network_failure_service/android_studio_app](https://github.com/Alankaar63/AI-Driven-Network-Failure-Prediction/tree/main/network_failure_service/android_studio_app)
-- Download full source ZIP: [main.zip](https://github.com/Alankaar63/AI-Driven-Network-Failure-Prediction/archive/refs/heads/main.zip)
+- Android Studio app folder: [network_failure_service/android_studio_app](https://github.com/Alankaar63/NexPulse-5G/tree/main/network_failure_service/android_studio_app)
+- Direct APK download: [nexuspulse-debug.apk](https://raw.githubusercontent.com/Alankaar63/NexPulse-5G/main/network_failure_service/android_studio_app/releases/nexuspulse-debug.apk)
+- Download full source ZIP: [main.zip](https://github.com/Alankaar63/NexPulse-5G/archive/refs/heads/main.zip)
