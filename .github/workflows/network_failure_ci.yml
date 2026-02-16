@@ -1,0 +1,32 @@
+name: network-failure-ci
+
+on:
+  push:
+    paths:
+      - 'network_failure_service/**'
+      - '.github/workflows/network_failure_ci.yml'
+  pull_request:
+    paths:
+      - 'network_failure_service/**'
+      - '.github/workflows/network_failure_ci.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r network_failure_service/requirements.txt
+
+      - name: Validate imports and syntax
+        run: |
+          python -m compileall network_failure_service
